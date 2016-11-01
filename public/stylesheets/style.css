@@ -18,6 +18,17 @@ input [type="submit"]{
   min-width: 100%;
 }
 
+.navbar--home {
+  background-color: #fff;
+  border: none;
+  padding: 1em 1em 0;
+}
+
+.navbar__home--right {
+  float: right;
+  padding-left: 1000px;
+}
+
 .navbar__header{
   display: inline;
 }
@@ -44,6 +55,10 @@ input [type="submit"]{
   font-family: 'Taviraj', Arial, sans-serif;
 }
 
+.navbar__brand--big {
+  font-size: 2em;
+}
+
 .navbar__form{
   display: inline;
 }
@@ -59,6 +74,7 @@ input [type="submit"]{
   float: right;
   right: 0;
 }
+
 
 .navbar__collapse {
   position: fixed;
@@ -153,12 +169,31 @@ input [type="submit"]{
   display: none;
 }
 
+.btn__display {
+  text-align: center;
+  display: inline-block;
+}
+
 .btn{
   display: inline-block;
   border: 1px solid #111;
   padding: 3px 5px 0px 5px;
   font-size: 14px;
 }
+
+.btn--large {
+  height: 75px;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  text-decoration: none;
+  align-items: center;
+}
+
+.btn--wide {
+  width: 200px;
+}
+
 .btn--primary{
   background-color: #555;
   color: #fff;
@@ -174,8 +209,22 @@ input [type="submit"]{
   margin: 0;
 }
 
+.btn--home {
+  background-color: #234;
+  color: #fff;
+  text-align: center;
+}
+
+.btn--home:hover {
+  background-color: #345
+}
+
 .btn--inline{
   display: inline;
+}
+
+.container__home {
+  text-align: center;
 }
 
 .navbar__btn{
