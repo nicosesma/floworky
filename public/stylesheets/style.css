@@ -58,7 +58,7 @@ input [type="submit"] {
 }
 
 .navbar__brand--big {
-  font-size: 2em;
+  font-size: 1.65em;
 }
 
 .navbar__form {
@@ -173,6 +173,11 @@ input [type="submit"] {
   width: 420px;
 }
 
+.form__login--addendum {
+  font-size: 0.85em;
+  color: #234;
+}
+
 .form__label {
   float: left;
   font-size: 11px;
@@ -183,14 +188,21 @@ input [type="submit"] {
   padding: 1.6em;
   width: 90%;
   margin: 5px;
-  background-color: yellow;
+  background-color: #f8f8fe;
+}
+
+.form__input--home:focus {
+  background-color: #FAFFBD;
 }
 
 .form--inline {
   display: inline;
 }
+
 .form__control {}
+
 .form__radio {}
+
 .form__radio--hidden {
   display: none;
 }
@@ -247,7 +259,7 @@ input [type="submit"] {
   background-color: #234;
   color: #fff;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 4px;
   text-decoration: none;
 }
 
@@ -256,8 +268,9 @@ input [type="submit"] {
 }
 
 .btn__home--normal {
-  width: 48px;
-  height: 22px;
+  width: 5.4em;
+  height: 2em;
+  padding-top: 0.8em;
 }
 
 .btn--inline {
